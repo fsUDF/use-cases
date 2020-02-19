@@ -35,6 +35,6 @@ We have compiled the tail-recursive functions in subdirectories
 - `vm`
 
 using the template for tail recursion (see Figure 26 in the paper) but
-use `WITH RECURSIVE` in these files so that they run a vanilla PostgreSQL
+use `WITH RECURSIVE` in these files so that they run on a vanilla PostgreSQL
 instance.  Using `WITH ITERATE` further improves the time and
 space efficiency of these functions.
