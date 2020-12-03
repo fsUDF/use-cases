@@ -2,7 +2,7 @@
 
 These 10 subdirectories contain the SQL-based implementations of
 a variety of algorithmic problems.  Please refer to Table 2 in
-Section 5 of the accompanying paper.  The SQL code should be
+Section 5 of the accompanying paper[1].  The SQL code should be
 ready for execution on PostgreSQL (tested with
 version 11.3).
 
@@ -34,7 +34,9 @@ We have compiled the tail-recursive functions in subdirectories
 - `sizes`
 - `vm`
 
-using the template for tail recursion (see Figure 26 in the paper) but
+using the template for tail recursion (see Figure 26 in the paper[1]) but
 use `WITH RECURSIVE` in these files so that they run on a vanilla PostgreSQL
 instance.  Using `WITH ITERATE` further improves the time and
 space efficiency of these functions.
+
+[1] https://db.inf.uni-tuebingen.de/staticfiles/publications/functional-style-UDFs.pdf
