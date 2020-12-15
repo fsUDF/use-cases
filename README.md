@@ -39,4 +39,4 @@ use `WITH RECURSIVE` in these files so that they run on a vanilla PostgreSQL
 instance.  Using `WITH ITERATE` further improves the time and
 space efficiency of these functions.
 
-[1]: https://db.inf.uni-tuebingen.de/staticfiles/publications/functional-style-UDFs.pdf
+[1] https://db.inf.uni-tuebingen.de/staticfiles/publications/functional-style-UDFs.pdf
